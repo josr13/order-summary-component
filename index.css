@@ -1,1 +1,88 @@
-/*# sourceMappingURL=index.css.map */
+:root {
+  font-family: "Red Hat Display", sans-serif;
+  background-color: hsl(225deg, 100%, 94%);
+  margin: 0;
+  padding: 0;
+}
+
+/* main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+} */
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  padding: 0;
+  width: 22em;
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.card .card-hero-image {
+  width: 100%;
+}
+.card .card-text-container {
+  margin: 0;
+  padding: 0;
+}
+.card .card-text-container h1.card-title {
+  color: hsl(223deg, 47%, 23%);
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.card .card-text-container p.card-body {
+  color: hsl(224deg, 23%, 55%);
+  font-size: 16px;
+}
+.card .card-summary {
+  display: flex;
+  flex-direction: row;
+  background-color: hsl(225deg, 100%, 98%);
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 1em;
+  width: 17em;
+}
+.card .card-summary .card-summary-image {
+  width: 3em;
+  height: 3em;
+}
+.card .card-summary .card-summary-text-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+.card .card-summary .card-summary-text-container h2.card-summary-title {
+  margin: 0;
+  padding: 0;
+  font-size: 0.95rem;
+  font-weight: 900;
+}
+.card .card-summary .card-summary-text-container p.card-summary-body {
+  margin: 0;
+  padding: 0;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+.card .card-summary a {
+  margin: 0;
+  padding: 0;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+footer.attribution {
+  display: none;
+  margin: 0;
+  padding: 0;
+}/*# sourceMappingURL=index.css.map */
