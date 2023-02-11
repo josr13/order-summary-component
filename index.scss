@@ -29,6 +29,7 @@
     overflow: hidden;
     .card-hero-image {
         width: 100%;
+        margin-bottom: 1em;
     }
     .card-text-container {
         margin: 0;
@@ -97,12 +98,27 @@
         padding: 0;
         .payment-button {
             border: 0;
-            padding: 1em 7em;
+            margin: 0 2em 0.5em;
+            padding: 1em 0;
+            width: 18em;
+            color: $very-pale-blue;
+            background-color: $bright-blue;
+            font-weight: 900;
+            font-family: inherit;
+            font-size: $paragraph-size;
+            border-radius: 12px;
+            box-shadow: 0 12px 24px -12px $bright-blue;
         }
         .cancel-button {
             border: 0;
-            padding: 1em 7em;
+            margin: 0 2em;
+            padding: 1em 0;
+            width: 18em;
+            color: $desaturated-blue;
             background: none;
+            font-weight: 900;
+            font-family: inherit;
+            font-size: $paragraph-size;
         }
     }
 }

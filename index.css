@@ -27,6 +27,7 @@
 }
 .card .card-hero-image {
   width: 100%;
+  margin-bottom: 1em;
 }
 .card .card-text-container {
   margin: 0;
@@ -96,12 +97,27 @@
 }
 .card .card-button-container .payment-button {
   border: 0;
-  padding: 1em 7em;
+  margin: 0 2em 0.5em;
+  padding: 1em 0;
+  width: 18em;
+  color: hsl(225deg, 100%, 98%);
+  background-color: hsl(245deg, 75%, 52%);
+  font-weight: 900;
+  font-family: inherit;
+  font-size: 16px;
+  border-radius: 12px;
+  box-shadow: 0 12px 24px -12px hsl(245deg, 75%, 52%);
 }
 .card .card-button-container .cancel-button {
   border: 0;
-  padding: 1em 7em;
+  margin: 0 2em;
+  padding: 1em 0;
+  width: 18em;
+  color: hsl(224deg, 23%, 55%);
   background: none;
+  font-weight: 900;
+  font-family: inherit;
+  font-size: 16px;
 }
 
 footer.attribution {
