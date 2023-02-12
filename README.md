@@ -20,7 +20,7 @@ This is my solution to the [Order summary component challenge on Frontend Mentor
 
 ### Links
 
-- Solution URL: [Frontend Mentor]()
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-order-summary-component-using-flexbox-and-sass-FCk0Ag2cLZ)
 - Live Site URL: [GitHub Pages](https://josr13.github.io/order-summary-component)
 
 ## My process
