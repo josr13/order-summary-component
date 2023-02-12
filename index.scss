@@ -36,6 +36,7 @@ main {
     background: white;
     border-radius: 20px;
     overflow: hidden;
+    box-shadow: 0 50px 150px -140px $bright-blue;
     .card-hero-image {
         width: 100%;
         margin-bottom: 1em;
