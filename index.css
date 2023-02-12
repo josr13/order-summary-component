@@ -105,12 +105,13 @@ main {
 .card .card-button-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin: 0 0 1.5em 0;
   padding: 0;
 }
 .card .card-button-container .payment-button {
   border: 0;
-  margin: 0 2em 0.5em;
+  margin: 0 0 0.5em;
   padding: 1em 0;
   width: 18em;
   color: hsl(225deg, 100%, 98%);
@@ -141,6 +142,58 @@ main {
   color: hsl(223deg, 47%, 23%);
 }
 
+@media only screen and (min-width: 1440px) {
+  body {
+    background-image: url("/images/pattern-background-desktop.svg");
+  }
+  .card {
+    width: 31em;
+  }
+  .card .card-text-container h1.card-title {
+    font-size: 1.9rem;
+  }
+  .card .card-text-container p.card-body {
+    margin: 0 4.5em;
+  }
+  .card .card-summary {
+    margin: 1.5em;
+    padding: 1.5em 1.75em;
+    width: 22em;
+  }
+  .card .card-summary .card-summary-text-container {
+    margin: 0 5em 0 0;
+    line-height: 1.75rem;
+  }
+  .card .card-summary .card-summary-text-container h2.card-summary-title {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 900;
+    color: hsl(223deg, 47%, 23%);
+  }
+  .card .card-summary .card-summary-text-container p.card-summary-body {
+    font-size: 16px;
+  }
+  .card .card-summary a {
+    font-size: 16px;
+  }
+  .card .card-button-container {
+    margin: 0 0 1.5em 0;
+    padding: 1.5em 1.75em 1em;
+    width: 22em;
+    align-items: center;
+  }
+  .card .card-button-container .payment-button {
+    margin: 0 2em 1em;
+    padding: 1em 0;
+    width: 24em;
+  }
+  .card .card-button-container .cancel-button {
+    margin: 0;
+    padding: 1em 0;
+    width: 24em;
+  }
+}
 footer.attribution {
   position: fixed;
   bottom: 0;

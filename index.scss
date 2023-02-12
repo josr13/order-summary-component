@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -23,7 +24,7 @@ main {
     min-height: 100vh;
 }
 
-.card{
+.card {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -105,11 +106,12 @@ main {
     .card-button-container {
         display: flex;
         flex-direction: column;
+        align-items: center;
         margin: 0 0 1.5em 0;
         padding: 0;
         .payment-button {
             border: 0;
-            margin: 0 2em 0.5em;
+            margin: 0 0 0.5em;
             padding: 1em 0;
             width: 18em;
             color: $very-pale-blue;
@@ -137,6 +139,62 @@ main {
             cursor: pointer;
             &:active {
                 color: $dark-blue;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    body {
+        background-image: url("/images/pattern-background-desktop.svg");
+    }
+
+    .card {
+        width: 31em;
+        .card-text-container {
+            h1.card-title {
+                font-size: 1.9rem;
+            }
+            p.card-body {
+                margin: 0 4.5em;
+            }
+        }
+        .card-summary {
+            margin: 1.5em;
+            padding: 1.5em 1.75em;
+            width: 22em;
+            .card-summary-text-container {
+                margin: 0 5em 0 0;
+                line-height: 1.75rem;
+                h2.card-summary-title {
+                    margin: 0;
+                    padding: 0;
+                    font-size: $paragraph-size;
+                    font-weight: 900;
+                    color: $dark-blue;
+                }
+                p.card-summary-body {
+                    font-size: $paragraph-size;
+                }
+            }
+            a {
+                font-size: $paragraph-size;
+            }
+        }
+        .card-button-container {
+            margin: 0 0 1.5em 0;
+            padding: 1.5em 1.75em 1em;
+            width: 22em;
+            align-items: center;
+            .payment-button {
+                margin: 0 2em 1em;
+                padding: 1em 0;
+                width: 24em;
+            }
+            .cancel-button {
+                margin: 0;
+                padding: 1em 0;
+                width: 24em;
             }
         }
     }
