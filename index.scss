@@ -120,7 +120,7 @@ main {
             font-family: inherit;
             font-size: $paragraph-size;
             border-radius: 12px;
-            box-shadow: 0 12px 24px -12px $bright-blue;
+            box-shadow: 0 12px 30px -15px $bright-blue;
             cursor: pointer;
             &:active {
                 background-color: $active-blue;
