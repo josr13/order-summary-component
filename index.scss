@@ -9,6 +9,10 @@
 body {
     margin: 0;
     padding: 0;
+    background-image: url("/images/pattern-background-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top;
 }
 
 main {
@@ -93,6 +97,9 @@ main {
             font-size: 0.9rem;
             font-weight: 700;
             color: $bright-blue;
+            &:active {
+                color: $active-blue;
+            }
         }
     }
     .card-button-container {
@@ -112,6 +119,10 @@ main {
             font-size: $paragraph-size;
             border-radius: 12px;
             box-shadow: 0 12px 24px -12px $bright-blue;
+            cursor: pointer;
+            &:active {
+                background-color: $active-blue;
+            }
         }
         .cancel-button {
             border: 0;
@@ -123,14 +134,24 @@ main {
             font-weight: 900;
             font-family: inherit;
             font-size: $paragraph-size;
+            cursor: pointer;
+            &:active {
+                color: $dark-blue;
+            }
         }
     }
 }
 
-//TODO: hover style
-
 footer.attribution {
-    display: none;
-    margin: 0;
+    //display: none;
+    position: fixed;
+    bottom: 0;
+    margin: 1em;
     padding: 0;
+    a {
+        color: $bright-blue;
+        &:active {
+            color: $active-blue;
+        }
+    }
 }

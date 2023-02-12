@@ -8,6 +8,10 @@
 body {
   margin: 0;
   padding: 0;
+  background-image: url("/images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: top;
 }
 
 main {
@@ -95,6 +99,9 @@ main {
   font-weight: 700;
   color: hsl(245deg, 75%, 52%);
 }
+.card .card-summary a:active {
+  color: hsl(245deg, 83%, 68%);
+}
 .card .card-button-container {
   display: flex;
   flex-direction: column;
@@ -113,6 +120,10 @@ main {
   font-size: 16px;
   border-radius: 12px;
   box-shadow: 0 12px 24px -12px hsl(245deg, 75%, 52%);
+  cursor: pointer;
+}
+.card .card-button-container .payment-button:active {
+  background-color: hsl(245deg, 83%, 68%);
 }
 .card .card-button-container .cancel-button {
   border: 0;
@@ -124,10 +135,21 @@ main {
   font-weight: 900;
   font-family: inherit;
   font-size: 16px;
+  cursor: pointer;
+}
+.card .card-button-container .cancel-button:active {
+  color: hsl(223deg, 47%, 23%);
 }
 
 footer.attribution {
-  display: none;
-  margin: 0;
+  position: fixed;
+  bottom: 0;
+  margin: 1em;
   padding: 0;
+}
+footer.attribution a {
+  color: hsl(245deg, 75%, 52%);
+}
+footer.attribution a:active {
+  color: hsl(245deg, 83%, 68%);
 }/*# sourceMappingURL=index.css.map */
