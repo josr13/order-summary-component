@@ -35,14 +35,14 @@ This is my solution to the [Order summary component challenge on Frontend Mentor
 
 ### What I learned
 
-While working through this project, I learned... 
+While working through this project, I learned Sass' partials and @import. 
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+@import 'variables';
+
+:root {
+    font-family: $font-stack;
+    background-color: $pale-blue;
 }
 ```
 
