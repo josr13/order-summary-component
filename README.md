@@ -30,6 +30,8 @@ This is my solution to the [Order summary component challenge on Frontend Mentor
 - Semantic HTML5 markup
 - Sass
 - Flexbox
+- Sass variables
+- Sass partial files
 - Mobile-first workflow
 
 
