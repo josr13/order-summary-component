@@ -8,7 +8,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url("/images/pattern-background-mobile.svg");
+  background-image: url("./images/pattern-background-mobile.svg");
   background-repeat: no-repeat;
   background-size: auto;
   background-position: top;
@@ -145,7 +145,7 @@ main {
 
 @media only screen and (min-width: 1440px) {
   body {
-    background-image: url("/images/pattern-background-desktop.svg");
+    background-image: url("./images/pattern-background-desktop.svg");
   }
   .card {
     width: 31em;
